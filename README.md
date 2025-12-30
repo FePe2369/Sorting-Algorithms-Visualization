@@ -1,4 +1,4 @@
-# 🎨 Sorting Algorithm Visualizer
+# Sorting Algorithm Visualizer
 
 A modern, interactive visualization tool for comparing popular sorting algorithms side-by-side. Watch algorithms compete in real-time with detailed statistics and smooth animations.
 
@@ -6,9 +6,9 @@ A modern, interactive visualization tool for comparing popular sorting algorithm
 ![Pygame](https://img.shields.io/badge/Pygame-2.0+-green)
 ![Status](https://img.shields.io/badge/Status-Complete-success)
 
-## ✨ Features
+## Features
 
-### 🔄 Multiple Algorithms
+### Multiple Algorithms
 
 Compare 5 sorting algorithms simultaneously:
 
@@ -18,7 +18,7 @@ Compare 5 sorting algorithms simultaneously:
 - **Quick Sort** - Divide and conquer approach
 - **Merge Sort** - Guaranteed O(n log n) performance
 
-### 📊 Real-Time Statistics
+### Real-Time Statistics
 
 Track performance metrics for each algorithm:
 
@@ -26,7 +26,7 @@ Track performance metrics for each algorithm:
 - Number of swaps/moves
 - Execution time (in seconds)
 
-### 🎮 Interactive Controls
+### Interactive Controls
 
 - **Generate**: Create new random array
 - **Start All**: Begin sorting all algorithms
@@ -35,13 +35,13 @@ Track performance metrics for each algorithm:
 - **Array Size Slider**: Adjust from 10 to 100 elements
 - **Speed Slider**: Control animation speed (1-100)
 
-### ⌨️ Keyboard Shortcuts
+### Keyboard Shortcuts
 
 - **Space**: Start/Pause sorting
 - **R**: Reset algorithms
 - **G**: Generate new array
 
-### 🎨 Visual Design
+### Visual Design
 
 - Color-coded algorithms for easy distinction
 - State-based bar coloring:
@@ -52,7 +52,7 @@ Track performance metrics for each algorithm:
 - Smooth animations with adjustable speed
 - Modern UI with clean cards and controls
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -75,7 +75,7 @@ pip install pygame
 python sorting_visualizer.py
 ```
 
-## 📖 How to Use
+## How to Use
 
 1. **Launch** the program
 2. **Adjust settings**:
@@ -86,7 +86,7 @@ python sorting_visualizer.py
 5. **Watch** algorithms compete in real-time!
 6. **Compare** statistics to see which performs best
 
-## 🎯 Algorithm Comparison
+## Algorithm Comparison
 
 | Algorithm      | Best Case  | Average Case | Worst Case | Space    | Stable |
 | -------------- | ---------- | ------------ | ---------- | -------- | ------ |
@@ -96,7 +96,7 @@ python sorting_visualizer.py
 | Quick Sort     | O(n log n) | O(n log n)   | O(n²)      | O(log n) | No     |
 | Merge Sort     | O(n log n) | O(n log n)   | O(n log n) | O(n)     | Yes    |
 
-## 🏗️ Architecture
+## Architecture
 
 ### Object-Oriented Design
 
@@ -130,7 +130,7 @@ Each algorithm implements `sort_step()` which executes one logical step of the s
 **Modular Design**
 Easy to add new algorithms by extending the `SortingAlgorithm` base class.
 
-## 🎨 Customization
+## Customization
 
 ### Adding a New Algorithm
 
@@ -168,7 +168,7 @@ SCREEN_WIDTH = 1400
 SCREEN_HEIGHT = 900
 ```
 
-## 🔬 Technical Details
+## Technical Details
 
 ### Performance Optimization
 
@@ -182,13 +182,13 @@ SCREEN_HEIGHT = 900
 - Each algorithm maintains its own state and statistics
 - Synchronous step execution ensures fair comparison
 
-## 🐛 Known Limitations
+## Known Limitations
 
 - Quick Sort may appear faster due to fewer visual updates
 - Very high speeds (>90) may cause frame drops on slower systems
 - Array sizes >100 may reduce bar visibility
 
-## 💡 Educational Value
+## Educational Value
 
 Perfect for:
 
@@ -197,7 +197,7 @@ Perfect for:
 - **Developers**: Comparing algorithm performance
 - **Interview Prep**: Visualizing common sorting algorithms
 
-## 🤝 Contributing
+## Contributing
 
 Ideas for contributions:
 
@@ -207,7 +207,7 @@ Ideas for contributions:
 - Create presets for different data patterns (reversed, nearly sorted, etc.)
 - Add "race mode" with scoring system
 
-## 📝 Code Quality
+## Code Quality
 
 - **Clean Architecture**: Separation of concerns with classes
 - **Type Hints**: Full type annotations for clarity
@@ -215,23 +215,14 @@ Ideas for contributions:
 - **No Code Duplication**: DRY principle applied
 - **Modular**: Easy to extend and maintain
 
-## 🎓 Learning Outcomes
 
-After using this visualizer, you'll understand:
-
-- How different sorting algorithms work step-by-step
-- Why some algorithms are faster than others
-- The concept of time/space complexity
-- When to use which algorithm
-- The importance of algorithm analysis
-
-## 📚 Resources
+## Resources
 
 - [Sorting Algorithm Animations](https://www.toptal.com/developers/sorting-algorithms)
 - [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 - [Pygame Documentation](https://www.pygame.org/docs/)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Inspired by classic sorting visualizers
 - Built with Python and Pygame
@@ -240,11 +231,5 @@ After using this visualizer, you'll understand:
 ---
 
 **Made with 💙 and lots of comparisons**
-
-_"In theory, theory and practice are the same. In practice, they are not." - Albert Einstein_
-
-## 📧 Questions?
-
-Feel free to experiment, modify, and learn!
 
 **Happy Sorting! 🔢**
