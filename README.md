@@ -232,4 +232,4 @@ Ideas for contributions:
 
 **Made with 💙 and lots of comparisons**
 
-**Happy Sorting! 🔢**
+**Happy Sorting!**
