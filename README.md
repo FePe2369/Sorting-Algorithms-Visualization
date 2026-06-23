@@ -72,7 +72,7 @@ pip install pygame
 2. Run the visualizer:
 
 ```bash
-python sorting_visualizer.py
+python main.py
 ```
 
 ## How to Use
